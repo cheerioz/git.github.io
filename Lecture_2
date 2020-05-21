@@ -1,0 +1,132 @@
+#### Simple operations and calculations
+
+# #01 Greeting by name
+# name = input()
+# print(f"Hello, {name}!")
+
+# #02 Concatiniate data
+# first_name = str(input())
+# last_name = str(input())
+# age = int(input())
+# town = str(input())
+# print(f"You are {first_name} {last_name}, a {age}-years old person from {town}.")
+
+# #03 Area of a square
+# side = int(input())
+# area = side * side
+# print(area)
+
+# #04 Inch to centimeter
+# inch = float(input())
+# conversion = 2.54
+# centimeters = float(inch*conversion)
+# print(centimeters)
+
+# #05 Project Creation
+# arch_name = str(input())
+# numb_projects = int(input())
+# hours = 3
+# total_hours = numb_projects * hours
+# print(f"The architect {arch_name} will need {total_hours} hours to complete {numb_projects} project/s.")
+
+# #06 Pet shop
+# # AAAND FUCK YOU TOOOO
+# num_dogs = int(input())
+# total_other_animals = int(input())
+# dog_food = 2.50
+# other_food = 4.00
+# price = num_dogs*dog_food + total_other_animals * other_food
+# print(f"{price}0 lv.")
+
+# #07 Yard Greening
+# import math
+# yard = int(input())
+# discount = round((18*(yard * 7.61))/100,2)
+# final_price = round(yard * 7.61 - discount,2)
+# print(f"The final price is: {final_price} lv.")
+# print(f"The discount is: {discount} lv.")
+
+#08 Fish tank
+# tank_length = int(input())
+# tank_width = int(input())
+# tank_height = int(input())
+# vol_used = float(input())
+# percent = vol_used*0.01
+# tank_volume = tank_length*tank_height*tank_width
+# tank_volume_in_liters = tank_volume * 0.001
+# final_volume =round(tank_volume_in_liters - percent*tank_volume_in_liters,3)
+# print(final_volume)
+
+
+##---------------------------------------------------------------------------------------------------------##
+
+
+# ## EXERCISES
+# #01 USD TO BGN 100/100
+# USD = float(input())
+# conversion = 1.79549
+# print(f"{USD*conversion:.2f}")
+
+# #02 Rads to degrees 100/100
+# import math
+# rads = float(input())
+# print(f"{rads*180/math.pi:.0f}")
+# print(f"{(l_aquarium * busy_aquarium / 100):.3f}")
+
+
+# #03 2D Rectangle Area 100/100
+# x1 = float(input())
+# y1 = float(input())
+# x2 = float(input())
+# y2 = float(input())
+# area = abs(x1 - x2)*abs(y1-y2)
+# perimeter = 2*abs(x1 - x2) + 2*abs(y1-y2)
+# print(f"{area:.2f}")
+# print(f"{perimeter:.2f}")
+
+
+# #04 Tailoring Workshop 100/100
+# usd_to_bgn = 1.85
+# numb_tables = float(input())
+# length_table = float(input())
+# width_table = float(input())
+# price_usd = numb_tables * (((length_table + .60) *(width_table + .60) * 7)+((length_table/2)*(length_table/2)* 9))
+# print(f"{price_usd:.2f} USD")
+# print(f"{(price_usd*usd_to_bgn):.2f} BGN")
+
+
+#05 Dance hall 100/100
+
+# import math
+# l=float(input())
+# w=float(input())
+# a=float(input())
+# area=(l*w*.9)-(a*a)
+# person=0.704
+# print(math.floor(area/person))
+
+
+# #06 Charity campaign 100/100
+#
+# days = float(input())
+# participants = float(input())
+# cakes = float(input())
+# waffles = float(input())
+# pancake = float(input())
+# total = participants * (cakes*45 + waffles*5.80 + pancake*3.20) * days
+# print(f"{(total*7/8):.2f}")
+
+
+# #07 Alchohol Market - 100/100
+# wiskey_price = float(input())
+# beer_quantity = float(input())
+# wine_quantity = float(input())
+# rakia_quantity = float(input())
+# wiskey_quantity = float(input())
+# rakia_price = wiskey_price * .5
+# wine_price = .6 * rakia_price
+# beer_price = .2 * rakia_price
+# total = wiskey_quantity*wiskey_price + rakia_quantity*rakia_price + beer_quantity*beer_price + wine_quantity*wine_price
+# print(f"{total:.2f}")
+for i in range(-1,4):
+    print(i)
